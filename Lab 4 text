@@ -1,0 +1,15 @@
+#include "vex.h"
+
+using namespace vex;
+
+int main() {
+  // Initializing Robot Configuration. DO NOT REMOVE!
+  vexcodeInit();
+  RoboticArm1.setMasteringValues(1660.0,2099.0,1902.0,644.0);
+ RoboticArm1.setToolTipOffset(1.05, 0.0, -1.0);
+ RoboticArm1.moveToPositionJoint(6.235,2.922,1.442);
+ RoboticArm1.moveToPositionJoint(4.506,-5.144,1.442);
+ RoboticArm1.moveToPositionLinear(6.235,2.922,1.442);
+ return 0;
+
+}
